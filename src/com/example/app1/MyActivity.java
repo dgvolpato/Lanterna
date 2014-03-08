@@ -20,7 +20,7 @@ public class MyActivity extends Activity {
     }
 
     public void myFlash (View view) {
-    /**
+
         Context context = this;
 
         context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
@@ -33,9 +33,6 @@ public class MyActivity extends Activity {
 
         //cam.stopPreview();
         //cam.release();
-    */
-        Button flash = (Button) findViewById(R.id.flashPlay);
-        flash.setText("Pisca!!!!");
 
     }
 }
