@@ -12,8 +12,6 @@ public class MyActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
-
-
     private Boolean isLightOn = false;
 
     Camera cam = Camera.open();
@@ -23,13 +21,16 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
     }
-
+    //TODO deal with all states of the activity
+    //TODO develop error treatment
+    //TODO improve layout
+    //TODO create an exit button
+    //TODO release cam
+    //TODO find out why the flash turns off after some time using another app
     public void myFlash (View view) {
 
         Context context = this;
-
         context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
 
         if (!isLightOn) {

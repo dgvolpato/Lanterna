@@ -3,4 +3,5 @@
     <string name="app_name">app1</string>
     <string name="explanation">first lantern app</string>
     <string name="flash">Flash!</string>
+    <string name="exit">Exit</string>
 </resources>

@@ -20,5 +20,11 @@
             android:text="@string/flash"
             android:id="@+id/flashPlay"
             />
+    <Button android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:onClick="exit"
+            android:text="@string/exit"
+            android:id="@+id/exit"
+            />
 </LinearLayout>
 
