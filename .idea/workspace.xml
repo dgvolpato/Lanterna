@@ -16,8 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b5e2904-18c4-441f-bb06-bcc22a392585" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app1.iws" />
@@ -85,7 +83,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="77" selection-start="873" selection-end="873" vertical-scroll-proportion="0.63022506" vertical-offset="195" max-vertical-offset="867">
+            <state line="27" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.28865978" vertical-offset="245" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -94,10 +92,11 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-5.42" vertical-offset="154" max-vertical-offset="612">
+            <state line="24" column="30" selection-start="990" selection-end="990" vertical-scroll-proportion="-3.48" vertical-offset="234" max-vertical-offset="612">
               <folding>
                 <element signature="e#569#590#0" expanded="true" />
                 <element signature="e#806#821#0" expanded="true" />
+                <element signature="e#1020#1034#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -486,7 +485,11 @@
       <created>1394307463101</created>
       <updated>1394307463101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionado um botão que deverá ligar o flash.&#10;">
+      <created>1394310290863</created>
+      <updated>1394310290863</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -526,8 +529,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19479553" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32682925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -603,6 +606,7 @@
           <folding>
             <element signature="e#569#590#0" expanded="true" />
             <element signature="e#806#821#0" expanded="true" />
+            <element signature="e#1020#1034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,6 +648,7 @@
           <folding>
             <element signature="e#569#590#0" expanded="true" />
             <element signature="e#806#821#0" expanded="true" />
+            <element signature="e#1020#1034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,6 +690,7 @@
           <folding>
             <element signature="e#569#590#0" expanded="true" />
             <element signature="e#806#821#0" expanded="true" />
+            <element signature="e#1020#1034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -757,10 +763,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="1030" selection-end="1030" vertical-scroll-proportion="-5.42" vertical-offset="154" max-vertical-offset="612">
+        <state line="24" column="30" selection-start="990" selection-end="990" vertical-scroll-proportion="-3.48" vertical-offset="234" max-vertical-offset="612">
           <folding>
             <element signature="e#569#590#0" expanded="true" />
             <element signature="e#806#821#0" expanded="true" />
+            <element signature="e#1020#1034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="77" selection-start="873" selection-end="873" vertical-scroll-proportion="0.63022506" vertical-offset="195" max-vertical-offset="867">
+        <state line="27" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.28865978" vertical-offset="245" max-vertical-offset="901">
           <folding />
         </state>
       </provider>

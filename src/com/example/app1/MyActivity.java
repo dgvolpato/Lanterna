@@ -25,8 +25,6 @@ public class MyActivity extends Activity {
     //TODO deal with all states of the activity
     //TODO develop error treatment
     //TODO improve layout
-    //TODO create an exit button
-    //TODO release cam
     //TODO find out why the flash turns off after some time using another app
     public void myFlash (View view) {
 
@@ -44,8 +42,12 @@ public class MyActivity extends Activity {
             p.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
             cam.setParameters(p);
             cam.stopPreview();
-            //cam.release();
             isLightOn = false;
         }
+    }
+
+    public void exit (View view) {
+        cam.release();
+        finish();
     }
 }
