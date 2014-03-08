@@ -23,7 +23,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.main);
     }
     //TODO deal with all states of the activity
-    //TODO develop error treatment
+    //TODO develop error handling
     //TODO improve layout
     //TODO find out why the flash turns off after some time using another app
     public void myFlash (View view) {

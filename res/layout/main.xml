@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
@@ -7,24 +7,31 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+            android:text="@string/title"
+            android:id="@+id/title"
+            android:layout_alignParentTop="true"
             />
     <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:text="@string/explanation"
               android:textColor="@color/string_color"
-            />
-    <Button android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:onClick="myFlash"
-            android:text="@string/flash"
-            android:id="@+id/flashPlay"
+              android:layout_below="@id/title"
             />
     <Button android:layout_width="150dp"
             android:layout_height="100dp"
             android:onClick="exit"
             android:text="@string/exit"
             android:id="@+id/exit"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
             />
-</LinearLayout>
+    <Button android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:onClick="myFlash"
+            android:text="@string/flash"
+            android:id="@+id/flashPlay"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/exit"
+            />
+</RelativeLayout>
 
