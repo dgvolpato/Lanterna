@@ -16,8 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b5e2904-18c4-441f-bb06-bcc22a392585" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app1.iws" />
@@ -82,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="901">
+            <state line="29" column="79" selection-start="933" selection-end="933" vertical-scroll-proportion="0.46945336" vertical-offset="245" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -119,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="286">
+            <state line="3" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -157,9 +155,9 @@
       <list>
         <option value="$PROJECT_DIR$/res/values/color.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -499,7 +497,11 @@
       <created>1394310621269</created>
       <updated>1394310621269</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adicionado um botão que deverá ligar o flash.&#10;">
+      <created>1394312430665</created>
+      <updated>1394312430665</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -539,7 +541,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19479553" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="text-editor">
         <state line="7" column="46" selection-start="328" selection-end="328" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="731">
@@ -799,7 +794,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="286">
+        <state line="3" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="79" selection-start="933" selection-end="933" vertical-scroll-proportion="0.46945336" vertical-offset="245" max-vertical-offset="935">
           <folding />
         </state>
       </provider>

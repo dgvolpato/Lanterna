@@ -26,6 +26,8 @@ public class MyActivity extends Activity {
     //TODO develop error handling
     //TODO improve layout
     //TODO find out why the flash turns off after some time using another app
+    //TODO create a logo for the app
+    //TODO create a fork with the flash bang button (twinkle on high frequency)
     public void myFlash (View view) {
 
         Context context = this;
