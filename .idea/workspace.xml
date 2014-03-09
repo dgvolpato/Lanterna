@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b5e2904-18c4-441f-bb06-bcc22a392585" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -91,10 +92,11 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="16" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.24115756" vertical-offset="979" max-vertical-offset="1836">
+            <state line="28" column="42" selection-start="842" selection-end="842" vertical-scroll-proportion="0.36332768" vertical-offset="262" max-vertical-offset="1819">
               <folding>
-                <element signature="e#2389#2993#0" expanded="true" />
-                <element signature="e#2982#2983#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1985#2589#0" expanded="true" />
+                <element signature="e#2578#2579#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,7 +123,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+            <state line="16" column="75" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -155,6 +157,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="dgvlpt@gmail.com" />
         <option value="Diego Volpato" />
       </list>
     </option>
@@ -164,9 +167,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/values/color.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
       </list>
     </option>
@@ -519,7 +522,11 @@
       <created>1394378750137</created>
       <updated>1394378750137</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added a background handler to run the twinkler func.&#10;&#10;">
+      <created>1394395148966</created>
+      <updated>1394395148966</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -559,8 +566,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19479553" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32520324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -589,7 +596,8 @@
     <MESSAGE value="Adicionado um botão que deverá ligar o flash." />
     <MESSAGE value="Adicionado um botão que deverá ligar o flash.&#10;" />
     <MESSAGE value="Added a new button (twinkle)&#10;It twinkles, but holds the UI.&#10;Still need to implement background task to run it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new button (twinkle)&#10;It twinkles, but holds the UI.&#10;Still need to implement background task to run it." />
+    <MESSAGE value="Added a background handler to run the twinkler func.&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a background handler to run the twinkler func.&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -607,8 +615,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="79" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="935">
           <folding>
-            <element signature="e#2389#2993#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1985#2589#0" expanded="true" />
+            <element signature="e#2578#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -654,8 +663,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="833">
           <folding>
-            <element signature="e#2389#2993#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1985#2589#0" expanded="true" />
+            <element signature="e#2578#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,8 +726,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="38" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="646">
           <folding>
-            <element signature="e#2389#2993#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1985#2589#0" expanded="true" />
+            <element signature="e#2578#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -763,8 +774,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="327" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
           <folding>
-            <element signature="e#2389#2993#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1985#2589#0" expanded="true" />
+            <element signature="e#2578#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,13 +840,6 @@
         <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="1411" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="238">
@@ -858,12 +863,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="75" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="16" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.24115756" vertical-offset="979" max-vertical-offset="1836">
+        <state line="28" column="42" selection-start="842" selection-end="842" vertical-scroll-proportion="0.36332768" vertical-offset="262" max-vertical-offset="1819">
           <folding>
-            <element signature="e#2389#2993#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1985#2589#0" expanded="true" />
+            <element signature="e#2578#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>

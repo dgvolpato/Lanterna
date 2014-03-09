@@ -5,13 +5,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Bundle;
-import android.os.HandlerThread;
 import android.view.View;
-import android.widget.Button;
-
-import java.util.concurrent.Executor;
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
 
 public class MyActivity extends Activity {
     /**
@@ -19,8 +13,7 @@ public class MyActivity extends Activity {
      */
     private Boolean isLightOn = false;
     private Boolean turnTwinkleOn = false;
-    private Integer twinkleDelay = 50; // 50 ms TODO decide if this will be a CONST
-    private Handler mBgTwinkler; // background handler (thread that will be running on background)
+    private Integer twinkleDelay = 50; // 50 ms
 
     Camera cam = Camera.open();
     Camera.Parameters p = cam.getParameters();
@@ -33,9 +26,8 @@ public class MyActivity extends Activity {
     //TODO deal with all states of the activity
     //TODO develop error handling
     //TODO improve layout
-    //TODO find out why the flash turns off after some time using another app
-    //TODO create a logo for the app
-    //TODO create a fork with the flash bang button (twinkle on high frequency)
+    //TODO about popup once the user taps the left button
+
     public void myFlash (View view) {
 
         Context context = this;
@@ -71,8 +63,11 @@ public class MyActivity extends Activity {
     public void twinkle (View view) {
 
         turnTwinkleOn = !turnTwinkleOn;
-                
-        if (!turnTwinkleOn) turnFlashOff();
+
+        if (!turnTwinkleOn) {
+            turnFlashOff();
+            isLightOn = false;
+        }
 
         Context context = this;
         context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
@@ -99,14 +94,7 @@ public class MyActivity extends Activity {
                 }
             }
         };
-
         new Thread(runnable).start();
-
-
-
-
-
-
     }
 
 
