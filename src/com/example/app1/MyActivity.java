@@ -13,6 +13,8 @@ public class MyActivity extends Activity {
      * Called when the activity is first created.
      */
     private Boolean isLightOn = false;
+    private Boolean turnTwinkleOn = false;
+    private Integer twinkleDelay = 50; // 50 ms TODO decide if this will be a CONST
 
     Camera cam = Camera.open();
     Camera.Parameters p = cam.getParameters();
@@ -34,16 +36,11 @@ public class MyActivity extends Activity {
         context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
 
         if (!isLightOn) {
-            p.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
-            cam.setParameters(p);
-            //p.getFlashMode();
-            cam.startPreview();
+            turnFlashOn();
             isLightOn = true;
         }
         else {
-            p.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
-            cam.setParameters(p);
-            cam.stopPreview();
+            turnFlashOff();
             isLightOn = false;
         }
     }
@@ -52,4 +49,48 @@ public class MyActivity extends Activity {
         cam.release();
         finish();
     }
+
+    public void turnFlashOn () {
+        p.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+        cam.setParameters(p);
+        cam.startPreview();
+    }
+
+    public void turnFlashOff () {
+        p.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+        cam.setParameters(p);
+        cam.stopPreview();
+    }
+
+    public void twinkle (View view) {
+
+        turnTwinkleOn = (turnTwinkleOn) ? false : true;
+
+        Context context = this;
+        context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+
+        //call background task (need to free UI!)
+
+
+
+        while (turnTwinkleOn) {
+            if (!isLightOn) {
+                turnFlashOn();
+                isLightOn = true;
+            }
+            else {
+                turnFlashOff();
+                isLightOn = false;
+            }
+
+            try {
+                Thread.sleep(twinkleDelay);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
+
 }

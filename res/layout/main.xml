@@ -19,11 +19,19 @@
             />
     <Button android:layout_width="150dp"
             android:layout_height="100dp"
+            android:onClick="twinkle"
+            android:text="@string/twinkle"
+            android:id="@+id/twinkle"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            />
+    <Button android:layout_width="150dp"
+            android:layout_height="100dp"
             android:onClick="exit"
             android:text="@string/exit"
             android:id="@+id/exit"
             android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
+            android:layout_below="@id/twinkle"
             />
     <Button android:layout_width="150dp"
             android:layout_height="100dp"
@@ -31,7 +39,7 @@
             android:text="@string/flash"
             android:id="@+id/flashPlay"
             android:layout_centerHorizontal="true"
-            android:layout_above="@id/exit"
+            android:layout_above="@id/twinkle"
             />
 </RelativeLayout>
 
