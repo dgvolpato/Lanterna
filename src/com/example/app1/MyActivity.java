@@ -5,8 +5,13 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Bundle;
+import android.os.HandlerThread;
 import android.view.View;
 import android.widget.Button;
+
+import java.util.concurrent.Executor;
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
 
 public class MyActivity extends Activity {
     /**
@@ -15,6 +20,7 @@ public class MyActivity extends Activity {
     private Boolean isLightOn = false;
     private Boolean turnTwinkleOn = false;
     private Integer twinkleDelay = 50; // 50 ms TODO decide if this will be a CONST
+    private Handler mBgTwinkler; // background handler (thread that will be running on background)
 
     Camera cam = Camera.open();
     Camera.Parameters p = cam.getParameters();
@@ -64,31 +70,43 @@ public class MyActivity extends Activity {
 
     public void twinkle (View view) {
 
-        turnTwinkleOn = (turnTwinkleOn) ? false : true;
+        turnTwinkleOn = !turnTwinkleOn;
+                
+        if (!turnTwinkleOn) turnFlashOff();
 
         Context context = this;
         context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
 
-        //call background task (need to free UI!)
+        //call background task (need to free UI)
 
+        Runnable runnable = new Runnable() {
+            public void run() {
+                while (turnTwinkleOn) {
+                    if (!isLightOn) {
+                        turnFlashOn();
+                        isLightOn = true;
+                    }
+                    else {
+                        turnFlashOff();
+                        isLightOn = false;
+                    }
 
-
-        while (turnTwinkleOn) {
-            if (!isLightOn) {
-                turnFlashOn();
-                isLightOn = true;
+                    try {
+                        Thread.sleep(twinkleDelay);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
-            else {
-                turnFlashOff();
-                isLightOn = false;
-            }
+        };
 
-            try {
-                Thread.sleep(twinkleDelay);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        new Thread(runnable).start();
+
+
+
+
+
+
     }
 
 
