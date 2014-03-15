@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MyActivity extends Activity {
@@ -22,7 +23,30 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
     }
+
+    public void onDestroy(){
+        turnTwinkleOn = false;
+        isLightOn = false;
+
+        Log.w(ACTIVITY_SERVICE, "App destroyed");
+        super.onDestroy();
+    }
+
+    public void onPause() {
+        cam.release();
+
+        Log.w(ACTIVITY_SERVICE, "App paused");
+        super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        Log.w(ACTIVITY_SERVICE, "App stopped");
+        super.onStop();
+    }
+
 
     //TODO deal with all states of the activity
     //TODO develop error handling
