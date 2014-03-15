@@ -19,7 +19,7 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="FlashMode" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b5e2904-18c4-441f-bb06-bcc22a392585" name="Default" comment="">
@@ -92,11 +92,14 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="42" selection-start="842" selection-end="842" vertical-scroll-proportion="0.36332768" vertical-offset="262" max-vertical-offset="1819">
+            <state line="30" column="42" selection-start="901" selection-end="901" vertical-scroll-proportion="1.0932475" vertical-offset="0" max-vertical-offset="1258">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1985#2589#0" expanded="true" />
-                <element signature="e#2578#2579#0" expanded="true" />
+                <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#myFlash#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#exit#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#turnFlashOn#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#turnFlashOff#0;class#MyActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -123,8 +126,10 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="75" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="459">
-              <folding />
+            <state line="14" column="53" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding>
+                <element signature="e#863#881#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,7 +182,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -238,24 +243,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app1" />
@@ -526,7 +513,11 @@
       <created>1394395148966</created>
       <updated>1394395148966</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added app icon.&#10;">
+      <created>1394398869174</created>
+      <updated>1394398869174</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -550,13 +541,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33863637" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3383686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -566,13 +557,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19479553" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32520324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19469696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19410875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34146342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -597,7 +588,8 @@
     <MESSAGE value="Adicionado um botão que deverá ligar o flash.&#10;" />
     <MESSAGE value="Added a new button (twinkle)&#10;It twinkles, but holds the UI.&#10;Still need to implement background task to run it." />
     <MESSAGE value="Added a background handler to run the twinkler func.&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a background handler to run the twinkler func.&#10;&#10;" />
+    <MESSAGE value="Added app icon.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added app icon.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,9 +607,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="79" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="935">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#2589#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#myFlash#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#exit#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOff#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,7 +636,9 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="28" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
-          <folding />
+          <folding>
+            <element signature="e#863#881#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,9 +660,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="833">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#2589#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#myFlash#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#exit#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOff#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,7 +704,9 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="220" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="459">
-          <folding />
+          <folding>
+            <element signature="e#863#881#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,9 +728,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="38" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="646">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#2589#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#myFlash#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#exit#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOff#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,7 +757,9 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="220" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="459">
-          <folding />
+          <folding>
+            <element signature="e#863#881#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +781,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="327" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#2589#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#myFlash#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#exit#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOff#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -800,7 +810,9 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <element signature="e#863#881#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +859,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="53" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="e#863#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Android/android-sdk/platforms/android-14/android.jar!/android/app/ActivityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="0" selection-start="8099" selection-end="8099" vertical-scroll-proportion="0.6577181" vertical-offset="2949" max-vertical-offset="3247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Android/android-sdk/platforms/android-14/android.jar!/android/content/ContentProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.6577181" vertical-offset="943" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Android/android-sdk/platforms/android-14/android.jar!/android/os/Binder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.6577181" vertical-offset="569" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -863,20 +905,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="75" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="842" selection-end="842" vertical-scroll-proportion="0.36332768" vertical-offset="262" max-vertical-offset="1819">
+        <state line="30" column="42" selection-start="901" selection-end="901" vertical-scroll-proportion="1.0932475" vertical-offset="0" max-vertical-offset="1258">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#2589#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
+            <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#myFlash#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#exit#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOn#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#turnFlashOff#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

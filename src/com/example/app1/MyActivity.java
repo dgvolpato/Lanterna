@@ -23,10 +23,12 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+
     //TODO deal with all states of the activity
     //TODO develop error handling
     //TODO improve layout
     //TODO about popup once the user taps the left button
+    //TODO create screen rotation handling
 
     public void myFlash (View view) {
 
@@ -44,6 +46,9 @@ public class MyActivity extends Activity {
     }
 
     public void exit (View view) {
+
+        turnTwinkleOn = false;
+
         cam.release();
         finish();
     }
@@ -95,6 +100,7 @@ public class MyActivity extends Activity {
             }
         };
         new Thread(runnable).start();
+
     }
 
 
