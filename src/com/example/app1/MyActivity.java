@@ -35,10 +35,32 @@ public class MyActivity extends Activity {
     }
 
     public void onPause() {
-        cam.release();
+        releaseCamera();
 
         Log.w(ACTIVITY_SERVICE, "App paused");
         super.onPause();
+    }
+
+    private boolean safeCameraOpen(int id) {
+        boolean qOpened = false;
+
+        try {
+            releaseCamera();
+            cam = Camera.open(id);
+            qOpened = (cam != null);
+        } catch (Exception e) {
+            Log.e(getString(R.string.app_name), "failed to open Camera");
+            e.printStackTrace();
+        }
+
+        return qOpened;
+    }
+
+    private void releaseCamera() {
+        if (cam != null) {
+            cam.release();
+            cam = null;
+        }
     }
 
     @Override
@@ -73,7 +95,7 @@ public class MyActivity extends Activity {
 
         turnTwinkleOn = false;
 
-        cam.release();
+        releaseCamera();
         finish();
     }
 
