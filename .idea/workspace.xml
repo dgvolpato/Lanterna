@@ -23,8 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b5e2904-18c4-441f-bb06-bcc22a392585" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/app1/MyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app1.iws" />
@@ -92,7 +90,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="901" selection-end="901" vertical-scroll-proportion="1.0932475" vertical-offset="0" max-vertical-offset="1258">
+            <state line="30" column="42" selection-start="901" selection-end="901" vertical-scroll-proportion="0.5772496" vertical-offset="0" max-vertical-offset="1258">
               <folding>
                 <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
@@ -517,7 +515,11 @@
       <created>1394398869174</created>
       <updated>1394398869174</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Solved the bug found by Marcus.">
+      <created>1394909152081</created>
+      <updated>1394909152081</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -557,7 +559,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19479553" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4520325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32520324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,7 +591,8 @@
     <MESSAGE value="Added a new button (twinkle)&#10;It twinkles, but holds the UI.&#10;Still need to implement background task to run it." />
     <MESSAGE value="Added a background handler to run the twinkler func.&#10;&#10;" />
     <MESSAGE value="Added app icon.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added app icon.&#10;" />
+    <MESSAGE value="Solved the bug found by Marcus." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved the bug found by Marcus." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="901" selection-end="901" vertical-scroll-proportion="1.0932475" vertical-offset="0" max-vertical-offset="1258">
+        <state line="30" column="42" selection-start="901" selection-end="901" vertical-scroll-proportion="0.5772496" vertical-offset="0" max-vertical-offset="1258">
           <folding>
             <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
             <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
