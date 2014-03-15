@@ -27,14 +27,14 @@ public class MyActivity extends Activity {
     }
 
     public void onDestroy(){
-        turnTwinkleOn = false;
-        isLightOn = false;
-
         Log.w(ACTIVITY_SERVICE, "App destroyed");
         super.onDestroy();
     }
 
     public void onPause() {
+        turnTwinkleOn = false;
+        isLightOn = false;
+
         releaseCamera();
 
         Log.w(ACTIVITY_SERVICE, "App paused");
@@ -74,7 +74,7 @@ public class MyActivity extends Activity {
     //TODO develop error handling
     //TODO improve layout
     //TODO about popup once the user taps the left button
-    //TODO create screen rotation handling
+    //TODO solve bug when flash or twinkle is on during the screen rotation
 
     public void myFlash (View view) {
 

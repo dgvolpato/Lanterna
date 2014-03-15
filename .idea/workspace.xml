@@ -91,13 +91,13 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="24" selection-start="2302" selection-end="2302" vertical-scroll-proportion="0.67202574" vertical-offset="1406" max-vertical-offset="2669">
+            <state line="76" column="11" selection-start="1830" selection-end="1894" vertical-scroll-proportion="0.38906753" vertical-offset="1137" max-vertical-offset="2669">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
                 <element signature="e#1268#1296#0" expanded="true" />
-                <element signature="e#3024#3628#0" expanded="true" />
-                <element signature="e#3617#3618#0" expanded="true" />
+                <element signature="e#3057#3661#0" expanded="true" />
+                <element signature="e#3650#3651#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -528,7 +528,11 @@
       <created>1394923548337</created>
       <updated>1394923548337</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added some safe open and release camera procedures">
+      <created>1394924315447</created>
+      <updated>1394924315447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -553,7 +557,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -603,7 +607,8 @@
     <MESSAGE value="Solved the bug found by Marcus." />
     <MESSAGE value="Solved the bug found by Marcus.&#10;" />
     <MESSAGE value="Solved screen rotation bug.&#10;Created most of the activity life cycle methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved screen rotation bug.&#10;Created most of the activity life cycle methods." />
+    <MESSAGE value="Added some safe open and release camera procedures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some safe open and release camera procedures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,8 +629,8 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
             <element signature="e#1268#1296#0" expanded="true" />
-            <element signature="e#3024#3628#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3057#3661#0" expanded="true" />
+            <element signature="e#3650#3651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,8 +682,8 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
             <element signature="e#1268#1296#0" expanded="true" />
-            <element signature="e#3024#3628#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3057#3661#0" expanded="true" />
+            <element signature="e#3650#3651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,8 +750,8 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
             <element signature="e#1268#1296#0" expanded="true" />
-            <element signature="e#3024#3628#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3057#3661#0" expanded="true" />
+            <element signature="e#3650#3651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,8 +803,8 @@
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
             <element signature="e#1268#1296#0" expanded="true" />
-            <element signature="e#3024#3628#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3057#3661#0" expanded="true" />
+            <element signature="e#3650#3651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,13 +927,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/app1/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="24" selection-start="2302" selection-end="2302" vertical-scroll-proportion="0.67202574" vertical-offset="1406" max-vertical-offset="2669">
+        <state line="76" column="11" selection-start="1830" selection-end="1894" vertical-scroll-proportion="0.38906753" vertical-offset="1137" max-vertical-offset="2669">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#isLightOn#0;class#MyActivity#0" expanded="false" />
             <element signature="e#1268#1296#0" expanded="true" />
-            <element signature="e#3024#3628#0" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3057#3661#0" expanded="true" />
+            <element signature="e#3650#3651#0" expanded="true" />
           </folding>
         </state>
       </provider>
